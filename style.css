@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500;700&family=Kalam:wght@300;400;700&display=swap');
 
 
 *{
@@ -30,8 +29,4 @@ form{
     background-repeat: no-repeat;
     border-radius: 100px;
 
-}
-.body , #body{
-    font-family: 'Josefin Sans', sans-serif;
-font-family: 'Kalam', cursive;
 }
