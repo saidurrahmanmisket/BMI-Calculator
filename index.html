@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+
+
+
+    <main class="vh-100 d-flex justify-content-center align-items-center ">
+
+        <div class="p-5 border rounded shadow-lg border border-1 border-dark bmi">
+            <form action="">
+            <h1 class="p-3 ps-0">BMI Calculator</h1>
+                
+                <input id="weightInput" class="form-control" type="number" placeholder="weight(kg)">
+                <br>
+                <input id="heightInput" class="form-control" type="number" placeholder="Height(m)">
+                
+                <br>
+                <br>
+                <button onclick="Calculate()" id="calculateBtn" type="button"
+                class="btn btn-dark fs-3 p-3">Calculate</button>
+            </form>
+        </div>
+        <div id="result">
+
+            <div class="p-5 border rounded shadow-lg border border-1 border-dark bmi ">
+                <h1 >Your are <span id="body">?</span></h1>
+                <div class="d-flex justify-content-center align-items-center">
+                    <h2 id="">Your BMI score is <span id="BMIValue"></span></h2>
+                    <img class="img-fluid img" id="img"  alt="">
+                </div>
+                <p>
+                    To know the bmi chart <a href="bmiChart.html">click here..</a>
+                </p>
+            </div>
+            
+        </div>
+
+    </main>
+   
+
+
+
+
+    <footer>
+        <!-- place footer here -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="calculate.js"></script>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
