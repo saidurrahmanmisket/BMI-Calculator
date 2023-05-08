@@ -1,0 +1,3 @@
+# Live link: 
+- https://simple-bmicalculator.netlify.app
+- https://saidurrahmanmisket.github.io/BMI-Calculator/
