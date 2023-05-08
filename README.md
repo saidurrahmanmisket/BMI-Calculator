@@ -5,6 +5,9 @@ It is a simple bmi Calculator , You can calculate your BMI by your weight and he
 
  You have to enter you weight in kg and height in meter if you don't knnow you weight in kg and height in meter then you can google it to convert . 
 
+## Live Link
+- https://simple-bmicalculator.netlify.app
+- https://saidurrahmanmisket.github.io/BMI-Calculator/
 
 ## Authors
 
